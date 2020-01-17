@@ -1,10 +1,14 @@
 
 
 body, header {
-    font-family: 'Oswald', serif;
+   font-family: 'Play Fair Display', serif;
 }
 
 .tope {
 
     word-break: break-all;2
+}
+
+.blanca {
+    color: white;
 }
