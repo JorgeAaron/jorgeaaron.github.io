@@ -12,3 +12,10 @@ body, header {
 .blanca {
     color: white;
 }
+
+.lento{
+ 
+  animation-delay: 0.4s;
+
+}
+

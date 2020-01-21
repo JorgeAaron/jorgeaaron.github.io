@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
     <link href="https://fonts.googleapis.com/css?family=Ibarra+Real+Nova|Open+Sans+Condensed:300|Oswald|Playfair+Display&display=swap"
      rel="stylesheet">
     <title>Document</title>
@@ -15,22 +16,36 @@
 <body>
 
     <header>
-        <h1 class="container text-center mt-4">Portafolio</h1>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Jorge Leon</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#"> Proyectos  <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">Sobre mí</a>
+            
+          </div>
+        </div>
+      </nav>
+
+      <!--<h1 class="container text-center mt-4">Portafolio</h1>-->
     </header>
-    <br>
+    <!--<br>
     <div class="row container text-center ">
         <div class="col-2"></div>
-        <img src="img/images.jpg" alt="Selfie" class=" col-3 rounded-circle"></img>
+       
         <div class="col-7 tope">Mi nombre es Jorge Aaron soy estudiante de la ingenieria en Software en ITSON Guaymas, me apasiona la tecnologia y siempre estoy 
              en la busqueda de nuevas tecnologias para empujar la innovacion de aplicaciones.  
         </div>
 
-    </div>
+    </div> -->
 
-    <h2 class="container mt-5">Proyectos personales:</h2>
-
-    <div class="container row mt-6 offset-md-1 ">
-        <div class="card col-xs-6 col-md-3 ml-5 text-center shadow p-3 mb-5 bg-white rounded border border-light">
+    <h2 class="container mt-5 animated fadeIn slower ">Proyectos personales:</h2>
+   <hr>
+    <div class="container row mt-6 offset-md-1 animated fadeIn slow lento ">
+      <div class="card col-10 col-md-3 ml-5 text-center shadow p-3 mb-5 bg-white rounded border border-light offset-col-1  ">
             <img class="card-img-top mt-2" type="button" src="img/appareil-architecte_es.png" data-toggle="modal"
                 data-target="#mimodal "> </img>
             <h5 class="card-title pt-1">Sistema CRUD: Sana Control</h5>
@@ -43,7 +58,7 @@
             <a href="https://github.com/JorgeAaron/sana-sana" class="btn btn-primary mb-2 mt-3 ">Ir a github</a>
         </div>
 
-        <div class="card col-xs col-md-3 ml-5 text-center shadow p-3 mb-5 bg-white rounded border border-light ">
+        <div class="card col-xs col-md-3 ml-5 text-center shadow p-3 mb-5 bg-white rounded border border-light  ">
             <img class="card-img-top mt-2 " type="button" src="img/appareil-architecte_es.png" data-toggle="modal"
                 data-target="#mimodal "> </img>
             <h5 class="card-title pt-1">Aplicación para crear listas</h5>
